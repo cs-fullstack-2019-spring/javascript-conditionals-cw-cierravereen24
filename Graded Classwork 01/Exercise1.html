@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 10</title>
+</head>
+<body>
+
+<h1>Conditional Classwork</h1>
+
+<script>
+    var card1 = parseInt(prompt("Pick a card."));
+    var card2 = parseInt(prompt("Pick a second card."));
+    var card3 = parseInt(prompt("Pick a third card."));
+
+    console.log(card1);
+    console.log(card2);
+    console.log(card3);
+
+    var total = (card1 + card2 + card3 );
+
+    if (card1 + card2 + card3 === 21)
+    {
+        console.log("BLACKJACK!");
+    }
+
+    else if (total > 21)
+    {
+        console.log("Bust");
+    }
+    else if (total < 21)
+    {
+        console.log("The total is " + total)
+    }
+
+
+</script>
+
+
+</body>
+</html>
